@@ -1,0 +1,27 @@
+==CS317 Notes: 02/15/2019==
+Requirements for running C files through GitPod
+* Make sure you're in the right folder
+* Use "g++ fileName.cpp" to compile
+* Run program with "./outputFileName
+===General Notes===
+* Class will start at 3pm on Monday the 18th
+* No class on March 1
+* Have minimal viable product ready by Monday
+* Ultimate goal: print the chances of you winning the game (with some error bars)
+* Pragmas: C++ comments
+* We'll go over parallelism & high-performance computing
+===Code Formatting Tool==
+* Ensure uniformity across programming teams
+* C++ doesn't have an official style, unlike Java
+* Clang is the formatting standard for C++
+* Don't change style format options, live with the standard options for at least a few weeks before changing defaults
+* You can integrate Clang into your IDE or git flow: follow the instructions
+** Type in clang format within the terminal
+===Measuring Time Code===
+* Since processors are now more complicated, and programs have to compete for code, there needs to be other methods to run the code
+* Distributions of timing results is a more accurate reference point
+* Resources to check: Scientific Benchmarking of Parralel Computing Systems
+* Figure out where time is spent to determine where to optimize
+===Solitaire Simulation===
+* Time the total run time for the code
+* chrono library can be used to measure time length on C++

@@ -8,3 +8,4 @@ Notes
 -Overly detailed design document will distract from the core ideas
 -Explain what the product does, and what the product DOESN'T do
 -Check out the articles Heroux provided
+-C++ can provide multiple inheritances, which Java doesn't: that can help you, as well as drive you into a hole

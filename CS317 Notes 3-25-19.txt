@@ -1,0 +1,5 @@
+Win: 1
+Lose: -1
+Tie: 0
+
+Don't worry about all the mathematical wizardry

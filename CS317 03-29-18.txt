@@ -1,1 +1,39 @@
 Notes
+==Reproducability is Key==
+* Anything scientific must be able to be reproduced by external sites.
+Computational Science Example:
+-Behavior of pure water just about homogeneous nucleation temperature (-40 C/F)
+-Sharability of code acts as a fact of fact-checking
+
+-Better, faster, cheaper: pick two of the three
+-Scenario: You are behind in developing a sophisticated new model in your software that you want to use for results in an upcoming paper
+-Which of these are reasonable choices?
+*Develop a simpler model for the paper
+*Set other work aside and spend more time on development
+*Ask for an extension on the paper deadline
+*Develop sophisticated model, but don't test its correctness
+*Develop sophisticated model, but don't document it or check it in.
+
+Code Complete by Steve McConnell
+
+Which of these enhance reproducability?
+-Code written by first-year, untrained grad student. X
+-Tuning for high performance. X
+-Dynamic parallelism of modern processors. X
+-Better software testing. X
+-Source code and versioning management.
+-Investing in developer productivity
+-Investing in software sustainability.
+
+Incentives demand investments, enables investments
+Technical debt: by creating substandard product, costs are raised in the future
+
+Personal Expectations:
+-GitHub stats: Easy to find who made the most commits.
+-Instead, be the person who ranks high in these ways.
+*Writes up requirements, analysis and design, even if simple.
+*Writes good GitHub issues, tracks their progress to completion.
+*Comments on, tests and accepts pull requests.
+*Provide good wiki, gh-pages content, responses to user issues.
+-By focusing on one issue, you can solve multiple issues as a result
+-Make reproducability requirements the keystone habit.
